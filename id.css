@@ -1,0 +1,34 @@
+body{
+    background-image: url("sheesha.jpg");
+    
+    font:0.8em Arial,sans-serif;
+}
+#wrap{
+    background: #ccc;
+    padding: 10px;
+    width: 940px;
+    margin: 0 auto
+}
+#header{
+    margin: 10px;
+}
+#menu ul{
+    list-style: none;
+    height: 30px;
+    margin-bottom: 10px;
+    border-bottom: : 1px solid #000
+}
+#menu ul li{
+    float: left
+}
+#menu ul li a{
+    color: #000;
+    text-decoration: none;
+    display: block;
+    padding: 0 20px;
+    line-height: 30px;
+}
+#menu ul li a:hover, #menu ul li a.selected{
+    background: #fff;
+    color: #000;
+}
